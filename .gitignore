@@ -1,0 +1,39 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# test output
+/coverage
+/playwright-report
+/test-results
+
+# environment
+.env
+.env.*
+.vercel
+
+# system/editor
+.DS_Store
+*.pem
+*.tsbuildinfo
+next-env.d.ts
+
+# local generated outputs and private cache data
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+liked_artists.json
+seed_artist_likes_cache.json
+seed_artist_likes_cache.*.json
+artists_to_discover.txt
+liked_artist_graph.html
+soundcloud_liked_artists.ipynb
